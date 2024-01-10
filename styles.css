@@ -1,0 +1,84 @@
+pre {
+        font-family:cursive;
+      }
+
+body{
+      background-size:cover;
+      background-image:url("https://media.istockphoto.com/id/1090614334/photo/beautiful-cloudscape-over-the-sea-waves-sunrise-shot.jpg?s=612x612&w=0&k=20&c=WZML2xjbPokY-oIjO4PHmJLC5Vn331B-VGyB4WUF7Uo=");
+      background-repeat:no-repeat;
+      background-position:bottom right;
+      background-attachment:fixed;
+      font-family:Roboto Slab;
+
+    }
+
+.header {
+  text-align: center;
+  background-color: whitesmoke;
+  opacity: 50%;
+}
+
+.container {  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 14px 1em;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "boracy ref may beach"
+    "boracydesc refdesc maydesc beachdesc";
+}
+
+.destination {
+  color:rgb(10,10,100);
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+
+.boracydesc {
+ grid-area: boracydesc; 
+  border:5px solid black;
+  color:black;
+  background-color:white;
+  height: 210px;
+  padding: 2px;
+  }
+
+.refdesc { 
+  grid-area: refdesc; 
+  border:5px solid black;
+  color:black;
+  background-color:white;
+  height: 210px;
+  padding: 2px;
+  }
+
+.maydesc { 
+  grid-area: maydesc; 
+  border:5px solid black;
+  color:black;
+  background-color:white;
+  height: 210px;
+  padding: 2px;
+  }
+
+.beachdesc {
+  grid-area: beachdesc;
+  border:5px solid black;
+  color:black;
+  background-color:white;
+  height: 210px;
+  padding: 2px;
+}
+
+.boracy { grid-area: boracy;   background-color: whitesmoke;
+  padding: 10px;}
+
+.ref { grid-area: ref;   background-color: whitesmoke;
+  padding: 10px;}
+
+.may { grid-area: may;   background-color: whitesmoke;
+  padding: 10px;}
+
+.beach { grid-area: beach;   background-color: whitesmoke;
+  padding: 10px;}
